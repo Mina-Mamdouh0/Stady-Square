@@ -1,0 +1,56 @@
+name: stady_square
+description: A new Flutter project.
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.0.18
+  flutter_bloc: ^8.1.2
+  flutter_launcher_icons: ^0.13.1
+  http: ^0.13.1
+  file_picker:
+  url_launcher: ^6.1.11
+  fluttertoast: ^8.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/image/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/font/Poppins-ExtraBold.ttf
+        - asset: assets/font/Poppins-Black.ttf
+        - asset: assets/font/Poppins-BlackItalic.ttf
+        - asset: assets/font/Poppins-ExtraBoldItalic.ttf
+        - asset: assets/font/Poppins-Bold.ttf
+        - asset: assets/font/Poppins-BoldItalic.ttf
+        - asset: assets/font/Poppins-ExtraLight.ttf
+        - asset: assets/font/Poppins-Light.ttf
+        - asset: assets/font/Poppins-ExtraLightItalic.ttf
+        - asset: assets/font/Poppins-Italic.ttf
+        - asset: assets/font/Poppins-LightItalic.ttf
+        - asset: assets/font/Poppins-Medium.ttf
+        - asset: assets/font/Poppins-MediumItalic.ttf
+        - asset: assets/font/Poppins-Regular.ttf
+        - asset: assets/font/Poppins-SemiBold.ttf
+        - asset: assets/font/Poppins-SemiBoldItalic.ttf
+        - asset: assets/font/Poppins-Thin.ttf
+        - asset: assets/font/Poppins-ThinItalic.ttf
